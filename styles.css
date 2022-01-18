@@ -46,7 +46,7 @@ background-image: url("images/crash.png")
 }
 
 .set {
-  margin: 10% 15%;
+  margin: 10% 19%;
 }
 
 .game-over {
@@ -86,8 +86,9 @@ background-image: url("images/crash.png")
   body{
     padding-top: 30%;
   }
+  
   h1{
-     font-size: 7rem;
+    font-size: 7rem;
     color: #DBEDF3;
     font-family: "Arvo", cursive;
     text-shadow: 6px 0 #DA0463;
