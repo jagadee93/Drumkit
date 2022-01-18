@@ -86,7 +86,10 @@ background-image: url("images/crash.png")
   body{
     padding-top: 30%;
   }
+  h1{
+      font-size: 70%;
+  }
   button{
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
