@@ -46,7 +46,7 @@ background-image: url("images/crash.png")
 }
 
 .set {
-  margin: 10% auto;
+  margin: 10% 15%;
 }
 
 .game-over {
@@ -82,7 +82,7 @@ background-image: url("images/crash.png")
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
   body{
     padding-top: 30%;
   }
