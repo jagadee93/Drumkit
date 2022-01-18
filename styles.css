@@ -93,7 +93,7 @@ background-image: url("images/crash.png")
     text-shadow: 6px 0 #DA0463;
   }
   button{
-    font-size: 5rem;
+    font-size: 40px;
     margin: 0 auto 0 auto;
   }
 }
