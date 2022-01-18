@@ -87,6 +87,7 @@ background-image: url("images/crash.png")
     padding-top: 30%;
   }
   h1{
+     font-size: 7rem;
     color: #DBEDF3;
     font-family: "Arvo", cursive;
     text-shadow: 6px 0 #DA0463;
