@@ -101,12 +101,6 @@ background-image: url("images/crash.png")
   body{
     padding-top: 30%;
   }
-  .text{
-    width:50%;
-    height: 70%;
-    margin:0 auto 0 auto;
-    padding-top: 15%;
-  }
   h1 {
     font-size: 6rem;
     color: #DBEDF3;

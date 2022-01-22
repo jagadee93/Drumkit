@@ -4,13 +4,15 @@ var num = document.querySelectorAll(".drum").length;
 for (var i = 0; i < num; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
     var ButtonInnerHTML = this.innerHTML;
+    console.log(ButtonInnerHTML)
     makeSound(ButtonInnerHTML);
     buttonAnimation(ButtonInnerHTML);
   });
 }
-document.addEventListener("keydown", function(event){
+document.addEventListener("keyup", function(event){
    makeSound(event.key);
    buttonAnimation(event.key);
+   console.log(event.key)
 })
 
 // detecting key board press
