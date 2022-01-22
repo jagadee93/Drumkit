@@ -5,10 +5,12 @@ for (var i = 0; i < num; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
     var ButtonInnerHTML = this.innerHTML;
     makeSound(ButtonInnerHTML);
+    buttonAnimation(ButtonInnerHTML);
   });
 }
 document.addEventListener("keydown", function(event){
    makeSound(event.key);
+   buttonAnimation(event.key);
 })
 
 // detecting key board press
@@ -46,7 +48,13 @@ function makeSound (key){
   }
 }
 
-
+function buttonAnimation(currentkey){
+var activebutton=document.querySelector("."+currentkey)
+activebutton.classList.add("pressed");
+setTimeout(function(){
+  activebutton.classList.remove("pressed")
+}, 100)
+}
 
 
 
