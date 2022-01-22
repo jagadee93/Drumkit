@@ -81,11 +81,27 @@ background-image: url("images/crash.png")
   margin: 10px;
   background-color: white;
 }
-
-
+.text{
+  width:50%;
+  margin:0 auto 0 auto;
+  padding-top: 10%;
+}
+/*button for mobile*/
+.textbox{
+  padding-top: 10%;
+}
+.resetb{
+  padding-top: 10%;
+}
 @media (max-width: 1000px) {
   body{
     padding-top: 30%;
+  }
+  .text{
+    width:50%;
+    height: 70%;
+    margin:0 auto 0 auto;
+    padding-top: 15%;
   }
   h1 {
     font-size: 6rem;
